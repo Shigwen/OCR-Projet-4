@@ -1,0 +1,335 @@
+:root {
+  --salmon: #F3976C;
+  --dark-salmon: #C27856;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 20px;
+  border-radius: 24px;
+  color: white;
+  font-weight: bold;
+  background-color: var(--salmon);
+  -webkit-transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--dark-salmon);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 440px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/la-chouette-agence-banniere.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/la-chouette-agence-banniere.jpg");
+  background-size: cover, cover;
+  background-position: fixed, fixed;
+}
+
+header p {
+  font-size: 32px;
+  color: var(--salmon);
+  padding: 25px 0 30px 0;
+}
+
+header a {
+  text-transform: uppercase;
+}
+
+presentation-text {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1000px;
+  padding: 50px;
+}
+
+presentation-text h1 {
+  font-size: 5rem;
+  color: var(--salmon);
+  margin-bottom: 20px;
+}
+
+presentation-text h2 {
+  font-size: 4rem;
+  color: var(--salmon);
+  margin-bottom: 30px;
+}
+
+presentation-text h3 {
+  font-size: 3rem;
+  color: var(--salmon);
+  margin-bottom: 30px;
+}
+
+presentation-text p {
+  text-align: left;
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+presentation-text svg {
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+presentation-text p.testimony_text {
+  font-size: 2.2rem;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+presentation-text p.testimony_signature {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.banner_middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 550px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/image-de-presentation.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/image-de-presentation.jpg");
+  background-size: cover, cover;
+  background-position: fixed, fixed;
+}
+
+.banner_middle .our_goals {
+  max-height: 500px;
+  width: 640px;
+  padding: 55px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+}
+
+.banner_middle .our_goals .part1 {
+  font-size: 2.2rem;
+  color: var(--salmon);
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.4em;
+}
+
+.banner_middle .our_goals .part2 {
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.banner_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 365px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/la-chouette-agence-banniere.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/la-chouette-agence-banniere.jpg");
+  background-size: cover, cover;
+  background-position: fixed, center;
+}
+
+.banner_bottom p {
+  font-size: 2rem;
+  color: var(--salmon);
+  padding: 0 0 20px 0;
+}
+
+.banner_bottom a {
+  text-transform: uppercase;
+}
+
+presentation-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  width: 100%;
+  background-image: url("../img/lines-h2-bg.png");
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+presentation-cards h2 {
+  font-size: 3rem;
+  color: var(--salmon);
+  margin: 20px 0 50px 0;
+}
+
+presentation-cards cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 100vw;
+  max-width: 570px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+presentation-cards figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 270px;
+  padding-bottom: 30px;
+}
+
+presentation-cards figure img {
+  padding-bottom: 25px;
+}
+
+presentation-cards figure h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 25px;
+}
+
+presentation-cards figure p {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background-color: var(--salmon);
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  font-size: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer social-network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer svg {
+  height: 40px;
+  width: 40px;
+  fill: white;
+  opacity: 0.8;
+  margin: 20px 40px 0 40px;
+}
+
+footer svg:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
