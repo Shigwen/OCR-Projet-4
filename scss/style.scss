@@ -285,11 +285,19 @@ footer
 
 /* Page de contact */
 
+main-container
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 10px;
+}
 
 main.contact
 {
 	max-width: 50%;
-	min-width: 900px;
+	min-width: 700px;
 	padding: 70px;
 	display: flex;
 	flex-direction: column;
@@ -317,7 +325,7 @@ main.contact
 		text-align: left;
 		width: 100%;
 		font-size: 2rem;
-
+	}
 	textarea
 	{
 		border: black;
@@ -329,9 +337,27 @@ main.contact
 
 aside.contact
 {
+	max-width: 50%;
+	min-width: 650px;
+	padding: 70px;
 	display: flex;
 	flex-direction: column;
-	padding: 70px;
-	max-width: 30%;
-	min-width: 500px;
+
+	img
+	{
+		width: 80%;
+		margin: 0 auto 40px 0;
+		height: auto;
+	}
+
+	h2 
+	{
+		font-size: 4rem;
+		color: var(--dark-salmon);
+		margin-bottom: 30px;
+	}
+	p 
+	{
+		font-size: 2rem;
+	}
 }

@@ -335,9 +335,23 @@ footer svg:hover {
 }
 
 /* Page de contact */
+main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+}
+
 main.contact {
   max-width: 50%;
-  min-width: 900px;
+  min-width: 700px;
   padding: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -348,7 +362,41 @@ main.contact {
           flex-direction: column;
 }
 
+main.contact h1 {
+  font-size: 5rem;
+  color: var(--dark-salmon);
+  margin-bottom: 20px;
+}
+
+main.contact h2 {
+  font-size: 4rem;
+  color: var(--dark-salmon);
+  margin-bottom: 30px;
+}
+
+main.contact h3 {
+  font-size: 3rem;
+  color: var(--dark-salmon);
+  margin-bottom: 30px;
+}
+
+main.contact p {
+  text-align: left;
+  width: 100%;
+  font-size: 2rem;
+}
+
+main.contact textarea {
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
 aside.contact {
+  max-width: 50%;
+  min-width: 650px;
+  padding: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,8 +404,21 @@ aside.contact {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 70px;
-  max-width: 30%;
-  min-width: 500px;
+}
+
+aside.contact img {
+  width: 80%;
+  margin: 0 auto 40px 0;
+  height: auto;
+}
+
+aside.contact h2 {
+  font-size: 4rem;
+  color: var(--dark-salmon);
+  margin-bottom: 30px;
+}
+
+aside.contact p {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
