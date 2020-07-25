@@ -37,6 +37,7 @@ header
 	background-image: 
 		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
 		url("../img/la-chouette-agence-banniere.jpg");
+	background-attachment: scroll, fixed;
 	background-size: cover, cover;
 	background-position: fixed, fixed;
 
@@ -110,7 +111,7 @@ presentation-text
 }
 
 
-.banner_middle
+banner-middle
 {
 	display: flex;
 	flex-direction: column;
@@ -121,6 +122,7 @@ presentation-text
 	background-image: 
 		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
 		url("../img/image-de-presentation.jpg");
+	background-attachment: scroll, fixed;
 	background-size: cover, cover;
 	background-position: fixed, fixed;
 
@@ -217,7 +219,7 @@ presentation-cards
 }
 
 
-.banner_bottom
+banner-bottom
 {
 	display: flex;
 	flex-direction: column;
@@ -228,6 +230,7 @@ presentation-cards
 	background-image: 
 		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
 		url("../img/la-chouette-agence-banniere.jpg");
+	background-attachment: scroll, fixed;	
 	background-size: cover, cover;
 	background-position: fixed, center;
 

@@ -54,6 +54,7 @@ header {
   height: 440px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/la-chouette-agence-banniere.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/la-chouette-agence-banniere.jpg");
+  background-attachment: scroll, fixed;
   background-size: cover, cover;
   background-position: fixed, fixed;
 }
@@ -128,7 +129,7 @@ presentation-text p.testimony_signature {
   margin-bottom: 20px;
 }
 
-.banner_middle {
+banner-middle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,11 +147,12 @@ presentation-text p.testimony_signature {
   height: 550px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/image-de-presentation.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/image-de-presentation.jpg");
+  background-attachment: scroll, fixed;
   background-size: cover, cover;
   background-position: fixed, fixed;
 }
 
-.banner_middle .our_goals {
+banner-middle .our_goals {
   max-height: 500px;
   width: 640px;
   padding: 55px;
@@ -161,7 +163,7 @@ presentation-text p.testimony_signature {
   color: white;
 }
 
-.banner_middle .our_goals .part1 {
+banner-middle .our_goals .part1 {
   font-size: 2.2rem;
   color: var(--salmon);
   text-align: center;
@@ -169,7 +171,7 @@ presentation-text p.testimony_signature {
   line-height: 1.4em;
 }
 
-.banner_middle .our_goals .part2 {
+banner-middle .our_goals .part2 {
   margin-bottom: 40px;
   font-size: 1.5rem;
   text-align: center;
@@ -257,7 +259,7 @@ presentation-cards figure p {
   text-align: center;
 }
 
-.banner_bottom {
+banner-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,17 +277,18 @@ presentation-cards figure p {
   height: 365px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/la-chouette-agence-banniere.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/la-chouette-agence-banniere.jpg");
+  background-attachment: scroll, fixed;
   background-size: cover, cover;
   background-position: fixed, center;
 }
 
-.banner_bottom p {
+banner-bottom p {
   font-size: 2rem;
   color: var(--salmon);
   padding: 0 0 20px 0;
 }
 
-.banner_bottom a {
+banner-bottom a {
   text-transform: uppercase;
 }
 
