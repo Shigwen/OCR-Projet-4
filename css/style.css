@@ -1,9 +1,3 @@
-:root {
-  --salmon: #ff906b;
-  --dark-salmon: #b9592c;
-  --darkest-salmon: #932706;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,13 +21,13 @@ body {
   border-radius: 24px;
   color: white;
   font-weight: bold;
-  background-color: var(--dark-salmon);
+  background-color: #b9592c;
   -webkit-transition: background-color 250ms ease-in-out;
   transition: background-color 250ms ease-in-out;
 }
 
 .button:hover {
-  background-color: var(--darkest-salmon);
+  background-color: #932706;
 }
 
 header {
@@ -60,7 +54,7 @@ header {
 
 header p {
   font-size: 32px;
-  color: var(--salmon);
+  color: #ff906b;
   padding: 25px 0 30px 0;
 }
 
@@ -89,19 +83,19 @@ presentation-text {
 
 presentation-text h1 {
   font-size: 5rem;
-  color: var(--dark-salmon);
+  color: #b9592c;
   margin-bottom: 20px;
 }
 
 presentation-text h2 {
   font-size: 4rem;
-  color: var(--dark-salmon);
+  color: #b9592c;
   margin-bottom: 30px;
 }
 
 presentation-text h3 {
   font-size: 3rem;
-  color: var(--dark-salmon);
+  color: #b9592c;
   margin-bottom: 30px;
 }
 
@@ -162,7 +156,7 @@ banner-middle .our_goals {
 
 banner-middle .our_goals .part1 {
   font-size: 2.2rem;
-  color: var(--salmon);
+  color: #ff906b;
   text-align: center;
   margin-bottom: 30px;
   line-height: 1.4em;
@@ -197,7 +191,7 @@ presentation-cards {
 
 presentation-cards h2 {
   font-size: 3rem;
-  color: var(--dark-salmon);
+  color: #b9592c;
   margin: 20px 0 50px 0;
 }
 
@@ -280,7 +274,7 @@ banner-bottom {
 
 banner-bottom p {
   font-size: 2rem;
-  color: var(--salmon);
+  color: #ff906b;
   padding: 0 0 20px 0;
 }
 
@@ -290,7 +284,7 @@ banner-bottom a {
 
 footer {
   width: 100%;
-  background-color: var(--dark-salmon);
+  background-color: #b9592c;
   height: 170px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -363,19 +357,19 @@ main.contact {
 
 main.contact h1 {
   font-size: 5rem;
-  color: var(--dark-salmon);
+  color: #b9592c;
   margin-bottom: 20px;
 }
 
 main.contact h2 {
   font-size: 4rem;
-  color: var(--dark-salmon);
+  color: #b9592c;
   margin-bottom: 30px;
 }
 
 main.contact h3 {
   font-size: 3rem;
-  color: var(--dark-salmon);
+  color: #b9592c;
   margin-bottom: 30px;
 }
 
@@ -413,7 +407,7 @@ aside.contact img {
 
 aside.contact h2 {
   font-size: 4rem;
-  color: var(--dark-salmon);
+  color: #b9592c;
   margin-bottom: 30px;
 }
 
