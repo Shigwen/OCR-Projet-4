@@ -1,5 +1,11 @@
 @import "./_variables";
 
+:focus {
+	border: 15px solid red;
+	background-color: cyan;
+	box-shadow: 10px 15px 15px green;
+}
+
 body
 {
 	font-family: Arial, Helvetica, sans-serif;
