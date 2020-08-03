@@ -1,8 +1,5 @@
 :focus {
-  border: 15px solid red;
-  background-color: cyan;
-  -webkit-box-shadow: 10px 15px 15px green;
-          box-shadow: 10px 15px 15px green;
+  border: 5px solid red !important;
 }
 
 body {
