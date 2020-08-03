@@ -33,7 +33,7 @@ header
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: 440px;
+	min-height: 440px;
 	background-image: 
 		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
 		url("../img/la-chouette-agence-banniere.jpg");
@@ -117,7 +117,8 @@ banner-middle
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: 550px;
+	min-height: 550px;
+	padding: 20px 0;
 	background-image: 
 		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
 		url("../img/image-de-presentation.jpg");
@@ -223,7 +224,8 @@ banner-bottom
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: 365px;
+	min-height: 365px;
+	padding: 20px 0;
 	background-image: 
 		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
 		url("../img/la-chouette-agence-banniere.jpg");

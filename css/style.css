@@ -45,7 +45,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 440px;
+  min-height: 440px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/la-chouette-agence-banniere.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/la-chouette-agence-banniere.jpg");
   background-attachment: scroll, fixed;
@@ -137,7 +137,8 @@ banner-middle {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 550px;
+  min-height: 550px;
+  padding: 20px 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/image-de-presentation.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/image-de-presentation.jpg");
   background-attachment: scroll, fixed;
@@ -265,7 +266,8 @@ banner-bottom {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 365px;
+  min-height: 365px;
+  padding: 20px 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/la-chouette-agence-banniere.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/la-chouette-agence-banniere.jpg");
   background-attachment: scroll, fixed;
