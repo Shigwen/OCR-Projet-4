@@ -291,7 +291,7 @@ banner-bottom a {
 footer {
   width: 100%;
   background-color: #b9592c;
-  height: 170px;
+  min-height: 170px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -307,6 +307,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 15px;
 }
 
 footer social-network {
@@ -319,6 +320,14 @@ footer social-network {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+footer social-network a {
+  padding: 10px 40px;
 }
 
 footer svg {
@@ -326,7 +335,6 @@ footer svg {
   width: 40px;
   fill: white;
   opacity: 0.8;
-  margin: 20px 40px 0 40px;
 }
 
 footer svg:hover {
@@ -361,10 +369,29 @@ main.contact {
           flex-direction: column;
 }
 
+@media screen and (max-width: 1419px) {
+  main.contact {
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main.contact {
+    padding: 20px;
+  }
+}
+
 main.contact h1 {
   font-size: 5rem;
   color: #b9592c;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  main.contact h1 {
+    font-size: 3rem;
+  }
 }
 
 main.contact h2 {
@@ -373,29 +400,54 @@ main.contact h2 {
   margin-bottom: 30px;
 }
 
-main.contact h3 {
-  font-size: 3rem;
-  color: #b9592c;
-  margin-bottom: 30px;
+@media screen and (max-width: 767px) {
+  main.contact h2 {
+    font-size: 2.5rem;
+  }
 }
 
 main.contact p {
+  margin-bottom: 15px;
   text-align: left;
   width: 100%;
   font-size: 2rem;
 }
 
-main.contact textarea {
-  border: black;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 5px;
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-bottom: 15px;
 }
 
 text-label {
   font-weight: bold;
 }
 
+input, textarea {
+  margin: 5px 0;
+  padding: 5px;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+textarea {
+  min-height: 200px;
+}
+
+/* form .button
+{
+	margin-top: 15px;
+} */
 aside.contact {
   max-width: 50%;
   min-width: 650px;
@@ -409,9 +461,22 @@ aside.contact {
           flex-direction: column;
 }
 
+@media screen and (max-width: 1419px) {
+  aside.contact {
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  aside.contact {
+    padding: 20px;
+  }
+}
+
 aside.contact img {
   width: 80%;
-  margin: 0 auto 40px 0;
+  margin: 0 auto 40px;
   height: auto;
 }
 
@@ -419,6 +484,12 @@ aside.contact h2 {
   font-size: 4rem;
   color: #b9592c;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  aside.contact h2 {
+    font-size: 2.5rem;
+  }
 }
 
 aside.contact p {
